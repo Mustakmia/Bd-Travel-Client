@@ -1,40 +1,64 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faGithubSquare, faLinkedinIn, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GoogleIcon from "@mui/icons-material/Google";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import React from 'react';
 import './Footer.css';
 const Footer = () => {
-  const icon1 = <FontAwesomeIcon icon={faGithubSquare} />
-  const icon2 = <FontAwesomeIcon icon={faFacebookF} />
-  const icon3 = <FontAwesomeIcon icon={faTwitterSquare} />
-  const icon4 = <FontAwesomeIcon icon={faLinkedinIn} />
 
   return (
-    <div className="body">
-      <footer>
-        <div className="waves">
-          <div class Name="wave" id="wave_1"></div>
-          <div className="wave" id="wave_2"></div>
-          <div className="wave" id="wave_3"></div>
-          <div className="wave" id="wave_4"></div>
-        </div>
-        <ul className="social_icon">
-          <li>{icon1}</li>
-          <li>{icon2}</li>
-          <li>{icon3}</li>
-          <li>{icon4}</li>
-        </ul>
-        <ul className="menu">
-          <li> <a href="/home">Home</a></li>
-          <li> <a href="/service">About</a></li>
-          <li> <a href="/appoinment">Order</a></li>
-          <li> <a href="more/">Up coming service</a></li>
-        </ul>
-        <p>@2021 World Travel | All Rights Reserved.</p>
-      </footer>
-    </div>
+    <div className="container-fluid p-0">
+      <div className="bg-secondary p-3 text-white">
+        <div className="py-5 d-lg-flex justify-content-around">
+          <div>
+            <img style={{ width: "50px", marginLeft: "5px" }} src="" alt="" />
+            <h3>
+              BD Travel </h3>
+            <p className="mb-0">
+              "We Provide best Tour <br /> to make you happy"
+            </p>
+          </div>
 
+
+
+
+          <div className="text-start">
+            <h4>Connect With Us</h4>
+
+            <p className="fw-bold">Information</p>
+            <p>
+              <i className="text-color fas fa-phone-alt"></i> (+009934500050)
+            </p>
+            <p>
+              <i className="text-color fas fa-mobile-alt"></i> (+8801766145227)
+            </p>
+            <p>
+              <i className="text-color far fa-envelope"></i>{" "}
+              <a className="text-white" href="musyafijur52@gmail.com">bd_travel_24/7@gmail.com</a>
+            </p>
+          </div>
+          <div className="text-start">
+            <p>Get Help</p>
+            <p>Read FAQs</p>
+            <p>Views All Products</p>
+            <p>Stay With Us </p>
+          </div>
+        </div>
+        <p>Follow Us</p>
+        <p className="d-md-flex justify-content-center">
+          <GoogleIcon sx={{ mr: 2 }}></GoogleIcon>
+          <FacebookIcon sx={{ mr: 2 }}></FacebookIcon>
+          <TwitterIcon sx={{ mr: 2 }}></TwitterIcon>
+          <InstagramIcon sx={{ mr: 2 }}></InstagramIcon>
+        </p>
+      </div>
+      <p className="mb-0 p-3 text-center text-white bg-info">
+        Copyright<i className="far fa-copyright"></i> 2022 DailyShop All right
+        reserved.
+      </p>
+    </div>
   );
 };
 
 export default Footer;
+

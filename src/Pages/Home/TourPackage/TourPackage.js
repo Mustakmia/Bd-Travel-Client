@@ -50,7 +50,7 @@ const TourPackage = () => {
           </div>
         </div> : <h1>Loading...</h1>
       }
-      <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg?size=338&ext=jpg" alt="" />
+      {/* <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg?size=338&ext=jpg" alt="" />
       <h2 className="text-danger">Documentation</h2>
       <p className="bg-dark text-light">Save on Travel with worldtour.com
         <br />
@@ -70,7 +70,7 @@ const TourPackage = () => {
         Links
         frontier airlines
         Featured Travel Guide
-        VTL Flights to Singapore | 2021 Chinese Public Holiday Calendar | Top 10 to Know before Booking the Cosmopolitan of Las Vegas | Trip.com Hotel coupons and discounts 2021 | ⚡ 50% off Trip.com Flight Deals 2021 | Things to do & Best All-Inclusive Resorts on Isla Mujeres | 2021 Trip.com promo code, discount code, coupon | 2021 USA Federal Holidays | List of United States Federal Holidays 2022 | How to Explore World's Largest Universal Studios Beijing | Bank Holiday 2021 in the United Kingdom | All You Need to Know about NHS COVID Passport</p>
+        VTL Flights to Singapore | 2021 Chinese Public Holiday Calendar | Top 10 to Know before Booking the Cosmopolitan of Las Vegas | Trip.com Hotel coupons and discounts 2021 | ⚡ 50% off Trip.com Flight Deals 2021 | Things to do & Best All-Inclusive Resorts on Isla Mujeres | 2021 Trip.com promo code, discount code, coupon | 2021 USA Federal Holidays | List of United States Federal Holidays 2022 | How to Explore World's Largest Universal Studios Beijing | Bank Holiday 2021 in the United Kingdom | All You Need to Know about NHS COVID Passport</p> */}
     </>
 
   );

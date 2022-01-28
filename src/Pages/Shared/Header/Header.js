@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <div>
 
-      <Navbar className="nav" bg="light" expand="lg">
+      <Navbar className="nav" bg="dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+          <Navbar.Brand className="text-light" href="#">Bd Travel</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -20,27 +20,27 @@ const Header = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/home">
+              <Nav.Link className="text-light" as={Link} to="/home">
                 Home
               </Nav.Link>
               <Nav
-                className="me-auto my-2 my-lg-0 text-dark fw-bold"
+                className="me-auto my-2 my-lg-0 text-light fw-bold"
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
 
                 {
-                  user?.email && <Nav.Link as={Link} to="/order">
+                  user?.email && <Nav.Link className="text-light" as={Link} to="/order">
                     My Order
                   </Nav.Link>
                 }
                 {
-                  user?.email && <Nav.Link as={Link} to="/createNewEvent">
+                  user?.email && <Nav.Link className="text-light" as={Link} to="/createNewEvent">
                     Create New Event
                   </Nav.Link>
                 }
                 {
-                  (user?.email) && <Nav.Link as={Link} to="/management">
+                  (user?.email) && <Nav.Link className="text-light" as={Link} to="/management">
                     Managment
                   </Nav.Link>
                 }
@@ -50,7 +50,7 @@ const Header = () => {
               </div>
 
 
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link className="text-light" as={Link} to="/about">
                 About
               </Nav.Link>
             </Nav>
