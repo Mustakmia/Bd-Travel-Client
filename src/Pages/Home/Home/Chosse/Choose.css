@@ -4,6 +4,7 @@
   background-size: cover;
   -webkit-background-size: cover;
   padding: 80px 50px;
+  margin-top: 8px;
 }
 .header-title {
   margin-top: 30px;
@@ -74,4 +75,7 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.mb{
+  margin-bottom: 8px;
 }

@@ -4,7 +4,7 @@ import { Card, CardGroup, } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div>
+    <div className="mt-5 mb-5">
       <h1>Our Best Services</h1>
       <CardGroup>
         <Card className="service-pic">

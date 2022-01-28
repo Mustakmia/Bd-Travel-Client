@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-
+import "./Clients.css"
 const Clients = () => {
     return (
-        <div>
+        <div className='mt-5 mb-10'>
             <h1>Our Clients Review </h1>
             <Carousel fade >
                 <Carousel.Item>

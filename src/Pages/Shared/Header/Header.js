@@ -23,6 +23,9 @@ const Header = () => {
               <Nav.Link className="text-light" as={Link} to="/home">
                 Home
               </Nav.Link>
+              <Nav.Link className="text-light" as={Link} to="/explore">
+                Explore
+              </Nav.Link>
               <Nav
                 className="me-auto my-2 my-lg-0 text-light fw-bold"
                 style={{ maxHeight: "100px" }}
@@ -54,17 +57,14 @@ const Header = () => {
                 About
               </Nav.Link>
             </Nav>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+            <NavDropdown title="More" id="navbarScrollingDropdown">
+              <NavDropdown.Item as={Link} to="/all Packages">All Packages</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/more facilities">More Facilities</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
+              <NavDropdown.Item as={Link} to="/galarry">
+                Galarry
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" enabled>
-              Link
-            </Nav.Link>
 
             <Form className="d-flex">
               <FormControl
@@ -74,8 +74,7 @@ const Header = () => {
                 aria-label="Search"
               />
               <Button variant="outline-success">Search</Button>
-            </Form>
-            {
+            </Form>          {
               (user?.email) ? <Link to="/login">
                 <button onClick={logOut}>Log out</button>
               </Link> : <Link to="/login">
@@ -85,53 +84,6 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* <Navbar expand="lg" style={{ backgroundColor: 'lightblue' }}>
-        <img style={{ height: '50px', width: '50px' }} src="https://image.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg" alt="" />
-        <Container>
-
-          <Navbar.Brand href="/">
-            World Tour
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0 text-dark fw-bold"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              
-              {
-                user?.email && <Nav.Link as={Link} to="/order">
-                  My Order
-                </Nav.Link>
-              }
-              {
-                user?.email && <Nav.Link as={Link} to="/createNewEvent">
-                  Create New Event
-                </Nav.Link>
-              }
-              {
-                (user?.email) && <Nav.Link as={Link} to="/management">
-                  Managment
-                </Nav.Link>
-              }
-             
-            </Nav>
-            <div>
-            </div>
-
-            {
-              (user?.email) ? <Link to="/login">
-                <button onClick={logOut}>Log out</button>
-              </Link> : <Link to="/login">
-                <button>Login</button>
-              </Link>
-            }
-
-          </Navbar.Collapse>
-        </Container>
-      </Navbar> */}
     </div >
   );
 };

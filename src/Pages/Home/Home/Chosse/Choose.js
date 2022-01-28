@@ -2,8 +2,8 @@ import React from 'react';
 
 const Choose = () => {
     return (
-        <div className="text-center mx-auto">
-            <h1>Why Choose Us?</h1>
+        <div className="text-center mx-auto mt-8 mb-8 mb">
+            <h1 >Why Choose Us?</h1>
             <header className="header">
                 <h1 className="header-title">Always Choose Good</h1>
                 <p className="header-description container">
