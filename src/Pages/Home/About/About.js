@@ -16,7 +16,7 @@ const About = () => {
       </header>
       <div className="row container w-100 m-auto">
         <div className="col-md-6 col-lg-6 col-sm-12 second-section-img">
-          <img className="h-100 w-100" src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg?size=338&ext=jpg" alt="" />
+          <img className="h-100 w-100" src="https://image.freepik.com/free-photo/copy-space-leaf-shape-grass_23-2148576659.jpg" alt="" />
         </div>
         <div className="col-md-6 col-lg-6 col-sm-12 second-sendtion">
           <h2 className="second-sendtion-title">Know Us</h2>

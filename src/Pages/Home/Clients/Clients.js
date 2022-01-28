@@ -4,10 +4,11 @@ import { Carousel } from 'react-bootstrap';
 const Clients = () => {
     return (
         <div>
-            <Carousel fade className='clients'>
+            <h1>Our Clients Review </h1>
+            <Carousel fade >
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100 "
                         src="https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
                         alt="First slide"
                     />
@@ -18,7 +19,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100"
                         src="https://image.freepik.com/free-photo/no-problem-concept-bearded-man-makes-okay-gesture-has-everything-control-all-fine-gesture-wears-spectacles-jumper-poses-against-pink-wall-says-i-got-this-guarantees-something_273609-42817.jpg"
                         alt="Second slide"
                     />
@@ -30,7 +31,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100"
                         src="https://image.freepik.com/free-photo/tourists-having-fun-coast_23-2147641179.jpg"
                         alt="Third slide"
                     />
@@ -42,7 +43,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100 "
                         src="https://image.freepik.com/free-photo/lost-tourists-finding-way_23-2147643219.jpg"
                         alt="Third slide"
                     />
@@ -54,7 +55,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block"
+                        className="d-bloc w-100"
                         src="https://img.freepik.com/free-photo/woman-with-backpack-exploring-nature_23-2148928007.jpg?size=338&ext=jpg"
                         alt="Third slide"
                     />
@@ -66,7 +67,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100 "
                         src="https://image.freepik.com/free-photo/two-male-hiker-sitting-top-rock-mountain-looking-scenic-view_23-2148182804.jpg"
                         alt="Third slide"
                     />
@@ -78,7 +79,7 @@ const Clients = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block "
+                        className="d-block w-100"
                         src="https://img.freepik.com/free-photo/travelers-with-ma_23-2147641148.jpg?size=338&ext=jpg"
                         alt="Third slide"
                     />
